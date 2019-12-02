@@ -3,19 +3,18 @@
 }
 h1{
 text-align : center;
-margin bottom; 15px;
  color:blue;
 }
 p{
 border: 1px solid black;
- width=90%;
- height=150px;
+ width:90%;
+ height:150px;
 margin-bottom:15px;
 margin-right:auto;
 margin-left: auto;
 }
 #p1 {
-background-color: #000000;
+background-color: #001000;
 }
 #p2 {
 background-color: #DEB887;
@@ -24,9 +23,9 @@ background-color: #DEB887;
 background-color: #0000FF;
 }
 .row{
-100%
+width:100%
 }
-@media (min width:992px) {
+@media (min-width:992px) {
 .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
 float:left;
 border: 1px solid green;
@@ -68,7 +67,7 @@ width:91%;
 width:100%;
 }
 }
-@media (min width:768px) and (max-width:991px) {
+@media (min-width:768px) and (max-width:991px) {
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .colmd-9, .col-md-10, .col-md-11, .col-md-12{
 float:left;
 border: 1px solid green;
